@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+dist/
+dist-ssr/
+.pnpm/
+.pnp/
+*.local/
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Visual Studio files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS specific files/directories
+.DS_Store
+
+# Environment variables file (if it's in the project root)
+.env
+
+# IDE configuration files (adjust as needed)
+!.vscode/extensions.json
+
+# Optional: TypeScript build artifacts (if using TypeScript)
+*.tsbuildinfo
