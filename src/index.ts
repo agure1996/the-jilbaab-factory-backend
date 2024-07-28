@@ -8,7 +8,7 @@ import login from "./routes/login.js";
 import router from "./routes/stripe.js";
 
 // Manually load environment variables from .env file
-dotenv.config();
+dotenv.config({path:'../.env'})
 
 // assign express to variable
 const app = Express();

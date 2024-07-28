@@ -2,7 +2,7 @@ const Express = require("express");
 import Stripe from "stripe";
 import * as dotenv from "dotenv";
 
-dotenv.config();
+dotenv.config({path:'../.env'})
 
 const stripe = new Stripe(process.env.STRIPE_KEY as string, {
   apiVersion: "2024-06-20",
